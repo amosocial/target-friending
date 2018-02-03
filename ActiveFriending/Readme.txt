@@ -16,7 +16,7 @@ The experimental results can be reproduced by simply using kdd18.jar.
 arguments: <path of the data><number of the nodes><index of the initiator><index of the target node>
 
 An example on wiki for initiator 1565 and target 28:
-     java -Xmx2048m -jar kdd18.jar data/wiki.txt 7500 2565 28
+     java -Xmx2048m -jar kdd18.jar data/wiki.txt 8300 2565 28
      
 Note that the results for the same input may not be exactly the same because the algorithm is randomized. However, they should be 
 very close to each other.
